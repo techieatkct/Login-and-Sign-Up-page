@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in & Sign-up Page by Ragul</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container" id="content01">
+        <div class="img-slider">
+            <h2>Welcome to Ragul's Website</h2>
+            <p>I am a freelancer devoloping softwares and providing business solutions </p>
+                <img src="./images/1.png" alt="img">
+        </div>
+        <div class="content">
+            <h2>Get Started</h2>
+            <p>Already have account ?  <a href="index2.html" id="login">Sign In </a></p>
+            <form id="form">
+                <label for="name" id="nlabel">Name</label> <br>
+                <input type="text" id="fname" placeholder="Enter your name" autocomplete="off"> <br>
+                <label for="email" id="elabel">Email</label> <br>
+                <input type="email" id="eemail" placeholder="Enter you email id " autocomplete="off"> <br>
+                <label for="password" id="plabel">Password</label> <br>
+                <input type="password" name="password" id="lpassword" placeholder="Enter password"> <br>
+                <button type="submit"  onclick="UserRegister()" id="btn">Sign Up </button>
+            </form>
+        </div>
+    </div>
+    <div class="container display" id="content02">
+        <div class="img-slider">
+            <h2>Welcome to Ragul's Website</h2>
+            <p>I am a freelancer devoloping softwares and providing business solutions </p>
+                <img src="./images/2.png" alt="img" class="sign-img">
+        </div>
+        <div class="content">
+            <h2>Get Started</h2>
+            <p>Don't have account ?  <a href="#" id="sign-up" >Sign up </a></p>
+            <form action="" id="form">
+                <label for="email" id="elabel">Email</label> <br>
+                <input type="email" id="eemail" placeholder="Enter you email id " autocomplete="off"> <br>
+                <label for="password" id="plabel">Password</label> <br>
+                <input type="password" name="password" id="lpassword" placeholder="Enter password"> <br>
+                <button type="submit" onclick="SignIn()" id="btn1">Log-In </button>
+            </form>
+        </div>
+    </div>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+<script src="design.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="server.js"></script>
+</body>
+</html>
