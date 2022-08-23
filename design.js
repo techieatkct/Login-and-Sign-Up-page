@@ -39,7 +39,7 @@ function SignIn(){
         }
         console.log(error);
       });
-    window.open("https://www.portfolio2.0.raguladhithya.tech","_self");
+    window.open("https://portfolio2.0.raguladhithya.tech/","_self");
 }
 document.getElementById('form').addEventListener('submit', (e) => {
     e.preventDefault();
